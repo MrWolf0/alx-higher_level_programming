@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    # first we will access only rows in matrix
-    for row in matrix:
-        # printing each index in row with a space between indices
-        # using end argument
-        for index in row:
-            print("{:d}".format(index), end=" ")
-        # print a new line
-        print()
+    # iterate through the rows
+    for row in range(len(matrix)):
+        # iterate through the columns
+        for column in range(len(matrix[row])):
+            # printing both row and column element such as
+            # element row 1 and column 1
+            print("{:d}".format(matrix[row][column]), end="")
+            # if we reach the last column in each row remove the whitespace
+            if column != (len(matrix[row]) - 1):
+                print(" ", end="")
+
+        print("")
