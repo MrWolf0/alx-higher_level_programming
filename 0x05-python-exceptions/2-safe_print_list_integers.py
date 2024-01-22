@@ -7,7 +7,7 @@ def safe_print_list_integers(my_list=[], x=0):
             counter += 1
             """ if there is any error in type of data or its """
             """ value throw an exception and  continue the execution """
-        except(TypeError, ValueError):
+        except (TypeError, ValueError):
             continue
     print("")
     return counter
