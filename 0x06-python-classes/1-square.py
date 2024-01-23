@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Square:
     """ the first methode will call in case we create an
     instance from Square it like the constructor in java
