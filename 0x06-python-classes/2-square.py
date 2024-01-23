@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# 2-square.py
+# Nasser Eldin <MrWolf0>
 """Define a class Square."""
 
 
