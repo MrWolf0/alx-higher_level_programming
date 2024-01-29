@@ -67,12 +67,12 @@ class Rectangle:
             and based on the height will assign
             how many raw print and width how many
             columns will print """
-        result = []
+        res = []
         for i in range(self.__height):
-            [result.append(str(self.print_symbol)) for j in range(self.__width)]
+            [res.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
-                result.append("\n")
-        return "".join(result)
+                res.append("\n")
+        return "".join(res)
 
     def __repr__(self):
         """return the string representation of the class."""
