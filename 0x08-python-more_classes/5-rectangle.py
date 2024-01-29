@@ -51,9 +51,9 @@ class Rectangle:
         return (self.__width * 2) + (self.__height * 2)
 
     """note that here we use the __str__
-        just to print in readable form  
+        just to print in readable form
         <3-rectangle.Rectangle object at 0x7f92a75a2eb8>
-        and we used repr to print the return value 
+        and we used repr to print the return value
         as it return from __str__ in the main fun"""
 
     def __str__(self):
@@ -61,7 +61,7 @@ class Rectangle:
             return ""
         """ then here we print #
             by checking every height and width
-            and based on the height will assign 
+            and based on the height will assign
             how many raw print and width how many
             columns will print """
         result = []
